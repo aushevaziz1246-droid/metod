@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+
+       let car = {
+        marka: "mers",
+        modele : "s",
+        color: "black",
+        carInfo: function(){
+            return ` marka : ${this.marka} Модель : ${this.modele} цвет:${this.color}`
+        }
+       } 
+       console.log(car.carInfo());
+
+
+
+       console.log(car.carinfo());
+       car.engine = function(){
+        return " обем двигателя : 6,3 л"
+       }
+       console.log(car);
+       console.log(car.carInfo(), );
+       
+       
+       
+
+    </Script>
+</body>
+</html>
